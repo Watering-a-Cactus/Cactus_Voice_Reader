@@ -1,0 +1,44 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"translate\"}}]": "utter_translate",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"translate\"}}, {\"prev_action\": {\"action_name\": \"utter_translate\"}, \"user\": {\"intent\": \"translate\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_text\"}}]": "utter_mode_text",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_text\"}}, {\"prev_action\": {\"action_name\": \"utter_mode_text\"}, \"user\": {\"intent\": \"mode_text\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"who_are_you\"}}]": "utter_who_are_you",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"who_are_you\"}}, {\"prev_action\": {\"action_name\": \"utter_who_are_you\"}, \"user\": {\"intent\": \"who_are_you\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"utter_default\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"capture\"}}]": "utter_capture",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"capture\"}}, {\"prev_action\": {\"action_name\": \"utter_capture\"}, \"user\": {\"intent\": \"capture\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_camera\"}}]": "utter_mode_camera",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_camera\"}}, {\"prev_action\": {\"action_name\": \"utter_mode_camera\"}, \"user\": {\"intent\": \"mode_camera\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ocr\"}}]": "utter_ocr",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ocr\"}}, {\"prev_action\": {\"action_name\": \"utter_ocr\"}, \"user\": {\"intent\": \"ocr\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"captioning\"}}]": "utter_captioning",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"captioning\"}}, {\"prev_action\": {\"action_name\": \"utter_captioning\"}, \"user\": {\"intent\": \"captioning\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_text\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ocr\"}}, {\"prev_action\": {\"action_name\": \"utter_ocr\"}, \"user\": {\"intent\": \"ocr\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"translate\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ocr\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"translate\"}}, {\"prev_action\": {\"action_name\": \"utter_translate\"}, \"user\": {\"intent\": \"translate\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_text\"}}, {\"prev_action\": {\"action_name\": \"utter_mode_text\"}, \"user\": {\"intent\": \"mode_text\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_camera\"}}, {\"prev_action\": {\"action_name\": \"utter_mode_camera\"}, \"user\": {\"intent\": \"mode_camera\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mode_camera\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"who_are_you\"}}, {\"prev_action\": {\"action_name\": \"utter_who_are_you\"}, \"user\": {\"intent\": \"who_are_you\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"capture\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"utter_default\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"who_are_you\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"captioning\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"capture\"}}, {\"prev_action\": {\"action_name\": \"utter_capture\"}, \"user\": {\"intent\": \"capture\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"captioning\"}}, {\"prev_action\": {\"action_name\": \"utter_captioning\"}, \"user\": {\"intent\": \"captioning\"}}]"
+    ]
+  }
+}

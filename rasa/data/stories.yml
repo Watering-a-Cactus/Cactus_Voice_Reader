@@ -1,0 +1,29 @@
+version: "3.1"
+
+stories:
+# - story: greet path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: affirm
+#   - action: utter_affirm
+#   - intent: mood_great
+#   - action: utter_mood_great
+
+# - story: goodbye path
+#   steps:
+#   - intent: goodbye
+#   - action: utter_goodbye
+#   - intent: affirm
+#   - action: utter_affirm
+#   - intent: bot_challenge
+#   - action: utter_bot_challenge
+
+# - story: mood_unhappy path
+#   steps:
+#   - intent: mood_unhappy
+#   - action: utter_mood_unhappy
+#   - intent: deny
+#   - action: utter_deny
+#   - intent: bot_challenge
+#   - action: utter_bot_challenge

@@ -1,0 +1,41 @@
+version: "3.1"
+
+rules:
+- rule: Say OCR
+  steps:
+  - intent: ocr
+  - action: utter_ocr
+
+- rule: Say captioning
+  steps:
+  - intent: captioning
+  - action: utter_captioning
+
+- rule: Say capture
+  steps:
+  - intent: capture
+  - action: utter_capture
+
+- rule: Say translate
+  steps:
+  - intent: translate
+  - action: utter_translate
+
+- rule: Say mode text
+  steps:
+  - intent: mode_text
+  - action: utter_mode_text
+
+- rule: Say mode camera
+  steps:
+  - intent: mode_camera
+  - action: utter_mode_camera
+
+- rule: Say who are you
+  steps:
+  - intent: who_are_you
+  - action: utter_who_are_you
+
+- rule: Fallback
+  steps:
+  - action: utter_default

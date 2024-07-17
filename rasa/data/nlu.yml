@@ -1,0 +1,58 @@
+version: "3.1"
+
+nlu:
+- intent: ocr
+  examples: |
+    - OCR
+    - OCR 해줘
+    - OCR 해주세요
+
+- intent: captioning
+  examples: |
+    - 이미지 설명
+    - 사진 설명해줘
+    - 이미지 설명해줘
+    - 현재화면 설명해줘
+    - 현재 화면 설명해줘
+    - 사진 설명해주세요
+    - 이미지 설명해주세요
+    - 현재화면 설명해주세요
+    - 현재 화면 설명해주세요
+
+- intent: capture
+  examples: |
+    - 캡쳐
+    - 캡쳐해줘
+    - 캡쳐 해줘
+    - 캡쳐 해주세요
+    - 화면 캡쳐해줘
+    - 화면 캡쳐해주세요
+
+- intent: translate
+  examples: |
+    - 번역
+    - 번역해줘
+    - 번역 해줘
+    - 번역 해주세요
+
+- intent: mode_text
+  examples: |
+    - 큰 글씨로 보여줘
+    - 크게 보여줘
+    - 크게 보여주세요
+    - 큰 글씨로 보여주세요
+    - 큰 글씨로
+
+- intent: mode_camera
+  examples: |
+    - 카메라 켜줘
+    - 카메라
+    - 이거 뭐라고 써있는거야
+    - 여기 뭐라고 써있는거에요
+
+- intent: who_are_you
+  examples: |
+    - 너 누구니?
+    - 너는 누구지?
+    - 너 누구야?
+    - 나는 인간이랑 이야기하고 있니?

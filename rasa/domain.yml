@@ -1,0 +1,40 @@
+version: "3.1"
+
+intents:
+  - ocr
+  - captioning
+  - capture
+  - translate
+  - mode_text
+  - mode_camera
+  - who_are_you
+
+responses:
+  utter_ocr:
+  - text: "OCR"
+
+  utter_captioning:
+  - text: "captioning"
+
+  utter_capture:
+  - text: "capture"
+
+  utter_translate:
+  - text: "translate"
+
+  utter_mode_text:
+  - text: "mode_text"
+
+  utter_mode_camera:
+  - text: "camera"
+
+  utter_who_are_you:
+  - text: "who_are_you"
+
+  utter_default:
+  - text: "fallback"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
